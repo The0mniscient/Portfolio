@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!-- This is the main landing page for the portfolio. -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gautham Ravisankar | Design Engineer</title>
+    <!-- Link to Google Fonts if you want to use 'Inter' -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- =================================================================
+    HEADER - MODIFIED
+    The header now uses a 3-column grid layout. Class names have been
+    updated, and text links for socials are replaced with inline SVGs.
+    ================================================================== -->
+    <header class="main-header">
+        <!-- Left side: Navigation links -->
+        <nav class="header-nav-left">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="experience.html">Experience</a>
+        </nav>
+
+        <!-- Middle: Name (Logo) linking to Home -->
+        <a href="index.html" class="header-logo">Gautham Ravisankar</a>
+
+        <!-- Right side: Social media icons -->
+        <div class="header-nav-right">
+            <!-- LinkedIn SVG Icon -->
+            <a href="#" aria-label="LinkedIn Profile">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+            </a>
+            <!-- Email SVG Icon -->
+            <a href="#" aria-label="Email">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"/>
+                </svg>
+            </a>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- =================================================================
+        HERO SECTION - MODIFIED
+        The h1 is now empty, ready for the JS typing animation.
+        ================================================================== -->
+        <section class="hero-section">
+            <h1 id="hero-animated-text" class="hero-text"></h1>
+            <!-- Sleek Arrow for scroll indication -->
+            <div class="hero-arrow">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 5V19M12 19L19 12M12 19L5 12" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+        </section>
+
+        <!-- =================================================================
+        PROJECT PREVIEW 1: STREETPULSE
+        ================================================================== -->
+        <section id="streetpulse-preview" class="project-preview streetpulse-preview">
+            <div class="streetpulse-sticky-container">
+                <div class="streetpulse-animation">
+                    <div class="streetpulse-video-placeholder"></div>
+                    <div class="streetpulse-text fade-in-section">
+                        <h2>Adding some haptics to your day out in the city.</h2>
+                        <h3>Project: StreetPulse</h3>
+                        <p>Enhancing the street performance experience through haptic feedback, creating a more immersive and engaging atmosphere for both performers and the audience.</p>
+                        <p><strong>Skills:</strong> User Experience Visualisation, Haptics, User Research, Co-design</p>
+                        <a href="project-streetpulse.html" class="btn btn-secondary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ... (The rest of the page content remains the same) ... -->
+
+        <section class="project-preview vertebrate-preview fade-in-section">
+            <div class="content">
+                <div class="vertebrate-text">
+                    <h2>More Vibrations… but this time it’s full body</h2>
+                    <h3>Project: Vertebrate</h3>
+                    <p>Replicating a concert experience at home with a wearable device that translates low-frequency audio into powerful, full-body haptic feedback.</p>
+                    <p><strong>Skills:</strong> PCB Design, Haptic Electronics, Wearable Product Design, Rapid Prototyping, Hand Manufacturing</p>
+                    <a href="project-vertebrate.html" class="btn">View Project</a>
+                </div>
+                <div class="vertebrate-image-placeholder"></div>
+            </div>
+        </section>
+
+        <section class="project-preview uprisers-preview fade-in-section">
+            <div class="content">
+                <div class="uprisers-text">
+                    <h2>Tying laces? A thing of the past!</h2>
+                    <h3>Project: The UpRisers</h3>
+                    <p>A creative design project looking into the future of footwear, resulting in a self-lacing shoe concept developed through sketching and storyboarding.</p>
+                    <p><strong>Skills:</strong> Sketching, Storyboarding, Iterative Design Process, Insight Generation, Structured Creativity</p>
+                    <a href="project-uprisers.html" class="btn">View Project</a>
+                </div>
+                <div id="uprisers-flipper" class="uprisers-flipper">
+                    <div class="flipper-image">Image 1 of 4 (Click Me!)</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-preview deskhook-preview fade-in-section">
+            <div class="content">
+                <h2>Uh… a title that HOOKS you in</h2>
+                <h3>Project: DeskHook</h3>
+                <p>A mini-project to create a print-in-place, universal headphone hook, optimized for 3D printing and designed for simple, effective product marketing.</p>
+                <p><strong>Skills:</strong> 3D Printing Optimisation, CAD, Product Marketing</p>
+                <a href="project-deskhook.html" class="btn">View Project</a>
+            </div>
+        </section>
+
+        <section class="project-preview blender-preview fade-in-section">
+            <div class="content">
+                <h2>Engineer by day, Fantasy by night?</h2>
+                <h3>Project: Blender Animation</h3>
+                <p>Exploring using Blender to design and animate 3D characters and environments, bringing fantasy concepts to life through digital sculpting and rendering.</p>
+                <p><strong>Skills:</strong> Blender, Character 3D Design, 3D animation</p>
+                <div class="blender-screens">
+                    <div class="phone-screen"></div>
+                    <div class="phone-screen"></div>
+                    <div class="phone-screen"></div>
+                </div>
+                <br>
+                <a href="project-blender.html" class="btn">View Project</a>
+            </div>
+        </section>
+
+        <section class="cta-section fade-in-section">
+            <div class="container">
+                <a href="projects.html" class="btn btn-primary">View All Projects</a>
+                <a href="experience.html" class="btn btn-secondary">View Experience</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-socials">
+            <a href="#">Email</a>
+            <a href="#">LinkedIn</a>
+        </div>
+        <p>&copy; 2025 Gautham Ravisankar. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

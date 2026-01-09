@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!-- This page details professional experience and awards in a timeline. -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience | Gautham Ravisankar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- =================================================================
+    HEADER (Shared Element)
+    ================================================================== -->
+    <header class="main-header">
+        <!-- Left side: Navigation links -->
+        <nav class="header-nav-left">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="experience.html">Experience</a>
+        </nav>
+
+        <!-- Middle: Name (Logo) linking to Home -->
+        <a href="index.html" class="header-logo">Gautham Ravisankar</a>
+
+        <!-- Right side: Social media icons -->
+        <div class="header-nav-right">
+            <!-- LinkedIn SVG Icon -->
+            <a href="#" aria-label="LinkedIn Profile">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+            </a>
+            <!-- Email SVG Icon -->
+            <a href="#" aria-label="Email">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"/>
+                </svg>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="page-title">Experience</h1>
+
+        <!-- =================================================================
+        LOGO SCROLL SECTION
+        An animated marquee of logos for brand recognition.
+        The animation is pure CSS.
+        ================================================================== -->
+        <section class="logo-scroll-container">
+            <!-- The inner div is duplicated to create a seamless loop. -->
+            <div class="logo-scroll">
+                <!-- These are placeholder boxes/text for the logos. -->
+                <div class="logo-item">STFC</div>
+                <div class="logo-item">ICFO</div>
+                <div class="logo-item">Motion Impossible</div>
+                <div class="logo-item">Design & Technology Association</div>
+                <div class="logo-item">Imperial College London</div>
+                <div class="logo-item">HeroX</div>
+                <div class="logo-item">NASA</div>
+                <div class="logo-item">Crest Awards</div>
+                <div class="logo-item">TeenTech</div>
+            </div>
+            <div class="logo-scroll">
+                <!-- Duplicate set for seamless animation -->
+                <div class="logo-item">STFC</div>
+                <div class="logo-item">ICFO</div>
+                <div class="logo-item">Motion Impossible</div>
+                <div class="logo-item">Design & Technology Association</div>
+                <div class="logo-item">Imperial College London</div>
+                <div class="logo-item">HeroX</div>
+                <div class="logo-item">NASA</div>
+                <div class="logo-item">Crest Awards</div>
+                <div class="logo-item">TeenTech</div>
+            </div>
+        </section>
+
+        <!-- =================================================================
+        TIMELINE SECTION
+        A vertical timeline to display awards (left) and experience (right).
+        On mobile, this will stack into a single column.
+        ================================================================== -->
+        <section class="timeline">
+
+            <!-- Timeline Item: Award -->
+            <div class="timeline-item left">
+                <!-- Each card is a clickable element. JS will handle the expansion. -->
+                <div class="timeline-card">
+                    <div class="timeline-card-content">
+                        <h3>NASA Lunar Loo 2nd Place</h3>
+                        <!-- This description is hidden by default. -->
+                        <div class="timeline-card-description">
+                            <p>Detailed description will be added here later.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timeline Item: Experience -->
+            <div class="timeline-item right">
+                <div class="timeline-card">
+                    <div class="timeline-card-content">
+                        <h3>STFC Cad work experience</h3>
+                        <div class="timeline-card-description">
+                            <p>Detailed description will be added here later.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timeline Item: Award -->
+            <div class="timeline-item left">
+                <div class="timeline-card">
+                    <div class="timeline-card-content">
+                        <h3>TeenTech Finalist</h3>
+                        <div class="timeline-card-description">
+                            <p>Detailed description will be added here later.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timeline Item: Experience -->
+            <div class="timeline-item right">
+                <div class="timeline-card">
+                    <div class="timeline-card-content">
+                        <h3>ICFO Photonics Research</h3>
+                        <div class="timeline-card-description">
+                            <p>Detailed description will be added here later.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timeline Item: Award -->
+            <div class="timeline-item left">
+                <div class="timeline-card">
+                    <div class="timeline-card-content">
+                        <h3>Gold Crest Award</h3>
+                        <div class="timeline-card-description">
+                            <p>Detailed description will be added here later.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timeline Item: Experience -->
+            <div class="timeline-item right">
+                <div class="timeline-card">
+                    <div class="timeline-card-content">
+                        <h3>Motion Impossible Work Experience</h3>
+                        <div class="timeline-card-description">
+                            <p>Detailed description will be added here later.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Add more timeline items as needed, alternating left and right -->
+
+        </section>
+
+    </main>
+
+    <!-- =================================================================
+    FOOTER (Shared Element)
+    ================================================================== -->
+    <footer class="main-footer">
+        <div class="footer-socials">
+            <a href="#">Email</a>
+            <a href="#">LinkedIn</a>
+        </div>
+        <p>&copy; 2025 Gautham Ravisankar. All Rights Reserved.</p>
+    </footer>
+
+    <!-- The script is needed for the expandable timeline cards. -->
+    <script src="script.js"></script>
+</body>
+</html>
